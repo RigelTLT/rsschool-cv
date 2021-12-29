@@ -4,7 +4,7 @@
 
 ## ФИО
 Козырин Дмитрий Игоревич
-<img alt="Фото резюме" width="10em" height="14em" align="right" src="https://disk.yandex.ru/i/5QYCApBH88ekHQ)](https://disk.yandex.ru/i/5QYCApBH88ekHQ">
+<img alt="Фото резюме" width="100em" height="140em" align="right" src="https://sun9-81.userapi.com/impg/krbvG_t1mcwpLNEXLQyEK1ECbR6BMLAlJ5z6NQ/sm3R1XnNXPs.jpg?size=827x1063&quality=96&sign=4778282e6bb9a2a147f78f8861c6c472&type=album">
 
 ## Контакты для связи
 * Телефон: 89372338860

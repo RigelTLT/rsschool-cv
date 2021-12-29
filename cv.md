@@ -1,38 +1,38 @@
+# **Summary**
+For the Rolling-Scopes-school assignment.
 
-# **Резюме**
-Для задания по Rolling-Scopes-school.
+## FULL NAME
+Kozyrin Dmitriy Igorevich
 
-## ФИО
-Козырин Дмитрий Игоревич
-<img alt="Фото резюме" width="100em" height="140em" align="right" src="https://sun9-81.userapi.com/impg/krbvG_t1mcwpLNEXLQyEK1ECbR6BMLAlJ5z6NQ/sm3R1XnNXPs.jpg?size=827x1063&quality=96&sign=4778282e6bb9a2a147f78f8861c6c472&type=album">
+<img alt="Photo resume" width="100em" height="140em" align="right" src="https://sun9-81.userapi.com/impg/krbvG_t1mcwpLNEXLQyEK1ECbR6BMLAlJ5z6NQ/sm3R1XnNXPs.jpg?size=827x1063&quality=96&sign=4778282e6bb9a2a147f78f8861c6c472&type=album">
 
-## Контакты для связи
-* **Телефон:** +7 (937) 233-88-60
-* **Электронная почта:** Kozyrin-di@yandex.ru
-* **GitHub:** RigelTLT
-* **Discord:** Dmitrii(@RigelTlt)
+## Contacts for communication
+* ** Phone: ** +7 (937) 233-88-60
+* ** Email: ** Kozyrin-di@yandex.ru
+* ** GitHub: ** RigelTLT
+* ** Discord: ** Dmitrii (@RigelTlt)
 
-## Контактная информация о себе
-* Мужчина, 27 лет, родился 17 января 1994
-* Проживаю в городе Тольятти
+## Contact information about yourself
+* Male, 27 years old, born January 17, 1994
+* I live in the city of Togliatti
 
-Цели получить опыт и знание в программировании. Приоритетные языки JavaScript и Java. Проработал в сфере IT около 6 лет. Запуск, монтаж и поддержание серверов, сетей, рабочих мест, телефонии и видеонаблюдения. Разработка и тестирования системы создания заявок(ЦРМ).
+Objectives to gain experience and knowledge in programming. The priority languages ​​are JavaScript and Java. Worked in the IT field for about 6 years. Launch, installation and maintenance of servers, networks, workplaces, telephony and video surveillance. Development and testing of the application creation system (CRM).
 
-**Деловые качества:** целеустремленность, дипломатичность, высокая работоспособность, коммуникабельность, быстрая обучаемость, стремление к постоянному развитию, инициативный и творческий подход в работе.
+**Business qualities:** purposefulness, diplomacy, high efficiency, sociability, quick learning, striving for continuous development, proactive and creative approach to work.
 
-## Навыки
-Знание основ программирования на языке 
+## Skills
+Knowledge of the basics of programming in the language
 * PHP
 * JavaScript
 * SQL
 * HTML
   
-Хорошее знание аппаратной части ПК и офисной техники. Знание серверов, сетевых технологий и телефонии на уровне администратора.
+Good knowledge of PC hardware and office equipment. Knowledge of servers, network technologies and telephony at the administrator level.
 
-## Опыт работы
-Поддержка и модификация ЦРМ на основе Dolibarr. Использованы языки программирования PHP, JavaScript. Проект находиться не в свободном доступе.
+## Experience
+Support and modification of the DTM based on Dolibarr. Used programming languages ​​PHP, JavaScript. The project is not in the public domain.
 
-Модуль напоминания о загрузке
+Boot reminder module
 ```
 $min15date = date('Y-m-d H:i:s',  strtotime("".$dateseic." +15 minutes"));
 $sqlzag = 'SELECT com.ref_client, com.rowid FROM '.MAIN_DB_PREFIX.'commande com LEFT JOIN '.MAIN_DB_PREFIX.'commande_extrafields comex ON com.rowid = comex.fk_object LEFT JOIN '.MAIN_DB_PREFIX.'societe soc ON com.fk_soc = soc.rowid LEFT JOIN '.MAIN_DB_PREFIX.'commande_provzag_i_zig comp ON com.rowid = comp.rowid_fk_comm WHERE soc.fournisseur = 0 AND (com.fk_user_author ='.$user->id.' OR com.fk_user_author2 ='.$user->id.') AND com.fk_statut=2 AND comex.chszagp <= "'.$dateseic1.'"';
@@ -95,41 +95,41 @@ if($nazag){
 	}
 }
 ```
-2 задачи из Codewars
+2 Tasks from Codewars
 
 [Square Every Digit](https://www.codewars.com/kata/546e2562b03326a88e000020)
 ```
-function squareDigits(num){
-  var arraycut = num.toString().split('');
-  var arranum = arraycut.map(Number)
+function squareDigits (num) {
+  var arraycut = num.toString (). split ('');
+  var arranum = arraycut.map (Number)
   var index;
-  var sting='';
-for (index = 0; index < arranum.length; ++index) {
-    var number= arranum[index]*arranum[index];
-    var sting= sting + number.toString();
+  var sting = '';
+for (index = 0; index <arranum.length; ++ index) {
+    var number = arranum [index] * arranum [index];
+    var sting = sting + number.toString ();
 }
-  return Number(sting);
+  return Number (sting);
 }
 ```
 [Multiply](https://www.codewars.com/kata/50654ddff44f800200000004)
 ```
-function multiply(a, b){
+function multiply (a, b) {
   var c;
-  c=a * b;
+  c = a * b;
   return c;
 }
 ```
-## Образование
-**Образование** Высшее(магистр).
+## Education
+**Education** Higher (Master's degree).
 
-Поволжский государственный университет сервиса, Тольятти Информационный электронный сервис, Программная инженерия
+Volga State University of Service, Togliatti Information Electronic Service, Software Engineering
 
-| Дата поступления  | Дата окончания | Название учебного заведения | Факультет | Специальность Квалификация |
+| Date of admission | End date | Name of educational institution | Faculty | Specialty Qualification |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 2012  | 2016 | Поволжский государственный университет сервиса | Информационно-технического сервиса, бюджет (очно) | Программная инженерия |
-| 2016  | 2018  | Поволжский государственный университет сервиса | Магистратура Информационно-технического сервиса, бюджет (заочно) | Программная инженерия |
+| 2012 | 2016 | Volga State University of Service | Information and technical service, budget (in person) | Software Engineering |
+| 2016 | 2018 | Volga State University of Service | Master of Information Technology Service, Budget (in absentia) | Software Engineering |
 
-**Дополнительное образование:** NetCracker по курсу «Обеспечение качества программных продуктов»
+**Additional education:** NetCracker on the course "Quality Assurance of Software Products"
 
-## Образование
-Английский (базовый уровень).
+## Education
+English (basic level).

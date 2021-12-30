@@ -7,13 +7,12 @@ Kozyrin Dmitriy Igorevich
 <img alt="Photo resume" width="100em" height="140em" align="right" src="https://sun9-81.userapi.com/impg/krbvG_t1mcwpLNEXLQyEK1ECbR6BMLAlJ5z6NQ/sm3R1XnNXPs.jpg?size=827x1063&quality=96&sign=4778282e6bb9a2a147f78f8861c6c472&type=album">
 
 ## Contacts for communication
-* ** Phone: ** +7 (937) 233-88-60
 * ** Email: ** Kozyrin-di@yandex.ru
 * ** GitHub: ** RigelTLT
 * ** Discord: ** Dmitrii (@RigelTlt)
 
 ## Contact information about yourself
-* Male, 27 years old, born January 17, 1994
+* Male, 27 years old
 * I live in the city of Togliatti
 
 Objectives to gain experience and knowledge in programming. The priority languages ​​are JavaScript and Java. Worked in the IT field for about 6 years. Launch, installation and maintenance of servers, networks, workplaces, telephony and video surveillance. Development and testing of the application creation system (CRM).
@@ -131,5 +130,5 @@ Volga State University of Service, Togliatti Information Electronic Service, Sof
 
 **Additional education:** NetCracker on the course "Quality Assurance of Software Products"
 
-## Education
+## Languages
 English (basic level).

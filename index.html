@@ -31,10 +31,13 @@
                     <a href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#languages">Languages</a>
                 </li>
             </ul>
         </nav>
@@ -47,8 +50,12 @@
                 <section class="contacts-communication" id="contacts">
                     <h2>Contacts</h2>
                     <ul class="ul-information">
-                        <li class="li-information"><img class="icons" src="assets/svg/email.svg" alt="Email">Email: Kozyrin-di@yandex.ru</li>
-                        <li class="li-information"><img class="icons" src="assets/svg/github.svg" alt="GitHub">GitHub: RigelTLT</li>
+                        <li class="li-information">
+                            <a href="mailto:kozyrin-di@yandex.ru" title="email"><img class="icons" src="assets/svg/email.svg" alt="Email">Email: Kozyrin-di@yandex.ru</a>
+                        </li>
+                        <li class="li-information">
+                            <a href="https://github.com/RigelTLT"><img class="icons" src="assets/svg/github.svg" alt="GitHub">GitHub: RigelTLT</li>
+                        </a>
                         <li class="li-information"><img class="icons" src="assets/svg/discord.svg" alt="Discord">Discord: Dmitrii (@RigelTlt)</li>
                     </ul>
                 </section>
@@ -80,14 +87,66 @@
                     <p><b>Business qualities:</b> purposefulness, diplomacy, high efficiency, sociability, quick learning, striving for continuous development, proactive and creative approach to work.</p>
                 </section>
                 <hr align="center" width="100%" size="2" />
-                <section class="Experience" id="experience">
-                    <h2>Experience</h2>
-                    <p>Support and modification of the DTM based on Dolibarr. Used programming languages ​​PHP, JavaScript. The project is not in the public domain. Boot reminder module</p>
+                <section class="projects" id="projects">
+                    <h2>Projects</h2>
+                    <p>2 Tasks from Codewars</p>
+                    <a class="link-code" href="https://www.codewars.com/kata/546e2562b03326a88e000020">Square Every Digit</a>
+                    <pre>
+                        <code>
+function squareDigits (num) {
+    var arraycut = num.toString (). split ('');
+    var arranum = arraycut.map (Number)
+    var index;
+    var sting = '';
+    for (index = 0; index < arranum.length; ++ index) {
+        var number = arranum [index] * arranum [index];
+        var sting = sting + number.toString ();
+    }
+    return Number (sting);
+}
+                        </code>
+                    </pre>
+                    <a class="link-code" href="https://www.codewars.com/kata/50654ddff44f800200000004">Multiply</a>
+                    <pre>
+                        <code>
+function multiply (a, b) {
+    var c;
+    c = a * b;
+    return c;
+}
+                        </code>
+                    </pre>
+
                 </section>
                 <hr align="center" width="100%" size="2" />
                 <section class="education" id="education">
                     <h2>Education</h2>
                     <p>Education Higher (Master's degree). Volga State University of Service, Togliatti Information Electronic Service, Software Engineering</p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name of educational institution</th>
+                                <th>Faculty</th>
+                                <th>Specialty Qualification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Volga State University of Service</td>
+                                <td>Information and technical service, budget (in person)</td>
+                                <td>Software Engineering</td>
+                            </tr>
+                            <tr>
+                                <td>Volga State University of Service</td>
+                                <td>Master of Information Technology Service, Budget (in absentia)</td>
+                                <td>Software Engineering</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section class="languages" id="languages">
+                    <h2>Languages</h2>
+                    <p>English (basic level).</p>
                 </section>
             </div>
         </div>

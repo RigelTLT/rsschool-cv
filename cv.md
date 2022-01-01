@@ -6,7 +6,7 @@ For the Rolling-Scopes-school assignment.
 
 Kozyrin Dmitriy Igorevich
 
-<img alt="Photo resume" width="100em" height="100em" align="right" src="assets/img/avatar.jpg">
+<img alt="Photo profile" width="100em" height="100em" align="right" src="assets/img/avatar.jpg">
 
 ## Contacts for communication
 
@@ -79,4 +79,5 @@ Volga State University of Service, Togliatti Information Electronic Service, Sof
 
 ## Languages
 
-English (basic level).
+- English (basic level).
+- Russian - native speaker.

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://rs.school/favicon.ico">
+    <title>Dmitriy Kozyrin CV</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,800&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="page-body">
+    <header class="page-header">
+        <p><a class="nav-up" href="#home">&uArr; Go up</a></p>
+        <img class="img-rss" src="assets/svg/rsschoolwhite.svg" width="86" height="32" alt="RS School">
+    </header>
+    <main class="page-main" id="home">
+        <nav class="page-nav">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#contacts">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#information">Information</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#languages">Languages</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="right-side">
+            <div class="communication-column">
+                <div class="avatar">
+                    <img class="page_avatar_img" src="assets/img/avatar.jpg" alt="avatar">
+                </div>
+                <hr align="center" width="100%" size="2" />
+                <section class="contacts-communication" id="contacts">
+                    <h2>Contacts</h2>
+                    <ul class="ul-information">
+                        <li class="li-information">
+                            <a href="mailto:kozyrin-di@yandex.ru" title="email"><img class="icons" src="assets/svg/email.svg" alt="Email">Email: Kozyrin-di@yandex.ru</a>
+                        </li>
+                        <li class="li-information">
+                            <a href="https://github.com/RigelTLT"><img class="icons" src="assets/svg/github.svg" alt="GitHub">GitHub: RigelTLT</li>
+                        </a>
+                        <li class="li-information"><img class="icons" src="assets/svg/discord.svg" alt="Discord">Discord: Dmitrii (@RigelTlt)</li>
+                    </ul>
+                </section>
+                <hr align="center" width="100%" size="2" />
+                <section class="skills" id="skills">
+                    <h2>Skills</h2>
+                    <p>Knowledge of the basics of programming in the language</p>
+                    <ul class="ul-information">
+                        <li class="li-information"><img class="icons" src="assets/svg/php.svg" alt="PHP">PHP</li>
+                        <li class="li-information"><img class="icons" src="assets/svg/js.svg" alt="JavaScript">JavaScript</li>
+                        <li class="li-information"><img class="icons" src="assets/svg/Sql.svg" alt="SQL">SQL</li>
+                        <li class="li-information"><img class="icons" src="assets/svg/html5.svg" alt="HTML">HTML</li>
+                    </ul>
+                    <p>Good knowledge of PC hardware and office equipment. Knowledge of servers, network technologies and telephony at the administrator level.</p>
+                </section>
+            </div>
+            <div class="information-column">
+                <section class="profile">
+                    <h1>Kozyrin Dmitriy Igorevich</h1>
+                </section>
+                <section class="contact-information" id="information">
+                    <p>Male, 27 years old</p>
+                    <p>Hometown: Togliatti</p>
+                    <hr align="center" width="100%" size="2" />
+                    <h2>About me</h2>
+                    <p>Objectives to gain experience and knowledge in programming. The priority languages ​​are JavaScript and Java. Worked in the IT field for about 6 years. Launch, installation and maintenance of servers, networks, workplaces, telephony
+                        and video surveillance. Development and testing of the application creation system (CRM).</p>
+                    <hr align="center" width="100%" size="2" />
+                    <p><b>Business qualities:</b> purposefulness, diplomacy, high efficiency, sociability, quick learning, striving for continuous development, proactive and creative approach to work.</p>
+                </section>
+                <hr align="center" width="100%" size="2" />
+                <section class="projects" id="projects">
+                    <h2>Projects</h2>
+                    <p>2 Tasks from Codewars</p>
+                    <a class="link-code" href="https://www.codewars.com/kata/546e2562b03326a88e000020">Square Every Digit</a>
+                    <pre>
+                        <code>
+function squareDigits (num) {
+    var arraycut = num.toString (). split ('');
+    var arranum = arraycut.map (Number)
+    var index;
+    var sting = '';
+    for (index = 0; index < arranum.length; ++ index) {
+        var number = arranum [index] * arranum [index];
+        var sting = sting + number.toString ();
+    }
+    return Number (sting);
+}
+                        </code>
+                    </pre>
+                    <a class="link-code" href="https://www.codewars.com/kata/50654ddff44f800200000004">Multiply</a>
+                    <pre>
+                        <code>
+function multiply (a, b) {
+    var c;
+    c = a * b;
+    return c;
+}
+                        </code>
+                    </pre>
+
+                </section>
+                <hr align="center" width="100%" size="2" />
+                <section class="education" id="education">
+                    <h2>Education</h2>
+                    <p>Education Higher (Master's degree). Volga State University of Service, Togliatti Information Electronic Service, Software Engineering</p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name of educational institution</th>
+                                <th>Faculty</th>
+                                <th>Specialty Qualification</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Volga State University of Service</td>
+                                <td>Information and technical service, budget (in person)</td>
+                                <td>Software Engineering</td>
+                            </tr>
+                            <tr>
+                                <td>Volga State University of Service</td>
+                                <td>Master of Information Technology Service, Budget (in absentia)</td>
+                                <td>Software Engineering</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section class="languages" id="languages">
+                    <h2>Languages</h2>
+                    <p>English (basic level).</p>
+                    <p>Russian - native speaker</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <div class="container-footer">
+            <p class="nav-up">2021<a class="nav-up" href="https://github.com/RigelTLT">RigelTLT</a></p> <img class="img-rss" src="assets/svg/rs_school_js.svg" width="86" height="32" alt="RS School">
+        </div>
+    </footer>
+</body>
+</div>
+
+</html>
